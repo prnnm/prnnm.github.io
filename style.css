@@ -23,7 +23,8 @@ body {
     background-color: #ff4d00;
     position: absolute;
     margin: auto;
-    margin-right: -1000px;
+    margin-top: 140px;
+    margin-right: -400px;
     min-width: 140px;
     width: 140px;
     height: 40px;
@@ -33,7 +34,8 @@ body {
     background-color: #ee0000;
     position: absolute;
     margin: auto;
-    margin-right: -1400px;
+    margin-top: 26px;
+    margin-right: -800px;
     min-width: 156px;
     width: 156px;
     height: 40px;
