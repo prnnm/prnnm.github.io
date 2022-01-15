@@ -9,8 +9,7 @@
 		<!--Stylesheet-->
 		<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
 		<!--JQuery-->
-		<link rel="stylesheet" href="style.css">
-		<link rel="stylesheet" href="neobtn.css">
+		<link rel="stylesheet" href="https://prnnm.github.io/style.css">
 		<script src="main.js"></script>
 	</head>
 	<body>
@@ -61,22 +60,26 @@
 			<br>
 			<br>
 			<h2 id="table3">Итого у вас:</h2>
-			<table border="7px" id="table3">
-				<tr>
-					<th>PV</th>
-					<th>Вес, кг</th>
-					<th>Цена, EUR</th>
-				</tr>
-				<tr>
-					<td id="td1.1"></td>
-					<td id="td1.2"></td>
-					<td id="td1.3"></td>
-				</tr>
-			</table>
+			<form action="https://formsubmit.co/atomypraha@gmail.com" method="POST">
+				<table border="7px" id="table3">
+					<input type="hidden" name="_template" value="table">
+					<input type="hidden" name="_next" value="index2.html">
+					<input type="hidden" name="_subject" value="Новый заказ!">
+					<input type="hidden" name="_captcha" value="false">
+					<tr>
+						<th>PV</th>
+						<th>Вес, кг</th>
+						<th>Цена, EUR</th>
+					</tr>
+					<tr>
+						<td id="td1.1" name="PV"></td>
+						<td id="td1.2" name="Вес, кг"></td>
+						<td id="td1.3" name="Цена, EUR"></td>
+					</tr>
+				</table>
+				<button id="btn1" type="submit"><a id="a1">Отправить заявку</a></button>
+			</form>
 		</center>
 		<button id="btn" onclick="save()"><a id="a1">Расcчитать</a></button>
-		<br>
-		<br>
-		<button id="btn1" onclick="send()"><a id="a1">Отправить заявку</a></button>
 	</body>
 </html>
