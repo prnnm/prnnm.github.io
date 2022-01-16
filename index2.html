@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Последний этап заявки</title>
+		<!--JQuery-->
+		<link rel="stylesheet" href="style.css">
+		<script src="main.js"></script>
+	</head>
+	<body>
+			<table border="7px" id="table2">
+				<tr>
+					<th>Товар</th>
+					<th>PV</th>
+					<th>Вес, кг</th>
+					<th>Цена, EUR</th>
+					<th>Кол-во</th>
+				</tr>
+				<tr>
+					<td>Хемохим (1уп - 60 пакет)</td>
+					<td id="pivi">55,000</td>
+					<td id="ves">1,900</td>
+					<td id="cena">99,54</td>
+					<td id="kolvo"><input type="number" id="inp1" class="inp"></td>
+				</tr>
+				<tr>
+					<td>Витамин C (90шт по 2гр)</td>
+					<td id="pivi">7,500</td>
+					<td id="ves">0,265</td>
+					<td id="cena">17,81</td>
+					<td id="kolvo"><input type="number" id="inp2" class="inp"></td>
+				</tr>
+				<tr>
+					<td>Кофе арабика 3в1 (50 стиков)</td>
+					<td id="pivi">1,500</td>
+					<td id="ves">0,700</td>
+					<td id="cena">14,50</td>
+					<td id="kolvo"><input type="number" id="inp3" class="inp"></td>
+				</tr>
+				<tr>
+					<td>Спирулина</td>
+					<td id="pivi">9,000</td>
+					<td id="ves">0,120</td>
+					<td id="cena">19,12</td>
+					<td id="kolvo"><input type="number" id="inp4" class="inp"></td>
+				</tr>
+				<tr>
+					<td>Зубные пасты Прополис (5шт. по 200гр)</td>
+					<td id="pivi">3,000</td>
+					<td id="ves">1,2</td>
+					<td id="cena">22,58</td>
+					<td id="kolvo"><input type="number" id="inp5" class="inp"></td>
+				</tr>
+			</table>
+			<br>
+			<br>
+			<h2 id="table3">Итого у вас:</h2>
+			<form action="https://formsubmit.co/your@email.com" method="post">
+				<table border="7px" id="table3">
+					<tr>
+						<th>PV</th>
+						<th>Вес, кг</th>
+						<th>Цена, EUR</th>
+					</tr>
+					<tr>
+						<td id="td1" name="PV"></td>
+						<td id="td2" name="Вес, кг"></td>
+						<td id="td3" name="Цена, EUR"></td>
+					</tr>
+				</table>
+				<button type="submit" id="btn1"><a id="a1">Отправить заявку</a></button>
+			</form>
+		</center>
+		<button id="btn" onclick="save()"><a id="a1">Расcчитать</a></button>
+	</body>
+</html>
