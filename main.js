@@ -11,6 +11,10 @@
         var klv4 = document.getElementById("inp5").value;
 
         var tv = document.getElementById("tv").innerHTML;
+        var tv1 = document.getElementById("tv1").innerHTML;
+        var tv2 = document.getElementById("tv2").innerHTML;
+        var tv3 = document.getElementById("tv3").innerHTML;
+        var tv4 = document.getElementById("tv4").innerHTML;
         
         var a = pvi * klv;
         var b = vs * klv;
@@ -39,10 +43,8 @@
         var td1 = document.getElementById("td1").value = a5;
         var td2 = document.getElementById("td2").value = b5;
         var td3 = document.getElementById("td3").value = c5;
-        
-        if (klv > 0) {
-            var tov = document.getElementById("tov").value = tv;
-        }
+        var tov = document.getElementById("tov").value = tv, tv1, tv2, tv3, tv4;
+        var ikl = document.getElementById("ikl").value = klv, klv1, klv2, klv3, klv4;
     }
 
     var pvi = 55000;
