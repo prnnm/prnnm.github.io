@@ -17,35 +17,35 @@
 					<th>Кол-во</th>
 				</tr>
 				<tr>
-					<td>Хемохим (1уп - 60 пакет)</td>
+					<td id="tv">Хемохим (1уп - 60 пакет)</td>
 					<td id="pivi">55,000</td>
 					<td id="ves">1,900</td>
 					<td id="cena">99,54</td>
 					<td id="kolvo"><input type="number" id="inp1" class="inp"></td>
 				</tr>
 				<tr>
-					<td>Витамин C (90шт по 2гр)</td>
+					<td id="tv1">Витамин C (90шт по 2гр)</td>
 					<td id="pivi">7,500</td>
 					<td id="ves">0,265</td>
 					<td id="cena">17,81</td>
 					<td id="kolvo"><input type="number" id="inp2" class="inp"></td>
 				</tr>
 				<tr>
-					<td>Кофе арабика 3в1 (50 стиков)</td>
+					<td id="tv2">Кофе арабика 3в1 (50 стиков)</td>
 					<td id="pivi">1,500</td>
 					<td id="ves">0,700</td>
 					<td id="cena">14,50</td>
 					<td id="kolvo"><input type="number" id="inp3" class="inp"></td>
 				</tr>
 				<tr>
-					<td>Спирулина</td>
+					<td id="tv3">Спирулина</td>
 					<td id="pivi">9,000</td>
 					<td id="ves">0,120</td>
 					<td id="cena">19,12</td>
 					<td id="kolvo"><input type="number" id="inp4" class="inp"></td>
 				</tr>
 				<tr>
-					<td>Зубные пасты Прополис (5шт. по 200гр)</td>
+					<td id="tv4">Зубные пасты Прополис (5шт. по 200гр)</td>
 					<td id="pivi">3,000</td>
 					<td id="ves">1,2</td>
 					<td id="cena">22,58</td>
@@ -55,18 +55,15 @@
 			<br>
 			<br>
 			<h2 id="table3">Итого у вас:</h2>
-			<table border="7px" id="table3">
-				<tr>
-					<th>PV</th>
-					<th>Вес, кг</th>
-					<th>Цена, EUR</th>
-				</tr>
-				<form action="https://formsubmit.co/atomypraha@gmail.com" method="post">
-					<input type="hidden" name="_template" value="table">
-					<input type="hidden" name="_next" value="https://prnnm.github.io/index.html">
-					<input type="hidden" name="_subject" value="Товар заказа!">
-					<input type="hidden" name="_captcha" value="false">
+			<form action="https://formsubmit.co/your@email.com" method="post">
+				<table border="7px" id="table3">
 					<tr>
+						<th>PV</th>
+						<th>Вес, кг</th>
+						<th>Цена, EUR</th>
+					</tr>
+					<tr>
+						<td><input type="hidden" name="Товар" id="tov"></td>
 						<td><input id="td1" class="answer" name="PV" readonly></td>
 						<td><input id="td2" class="answer" name="Вес, кг" readonly></td>
 						<td><input id="td3" class="answer" name="Цена, EUR" readonly></td>
