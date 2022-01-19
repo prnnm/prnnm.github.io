@@ -43,8 +43,8 @@
         var td1 = document.getElementById("td1").value = a5;
         var td2 = document.getElementById("td2").value = b5;
         var td3 = document.getElementById("td3").value = c5;
-        var tov = document.getElementById("tov").value = tv, tv1, tv2, tv3, tv4;
-        var ikl = document.getElementById("ikl").value = klv, klv1, klv2, klv3, klv4;
+        var tov = document.getElementById("tov").value = [tv, tv1, tv2, tv3, tv4];
+        var ikl = document.getElementById("ikl").value = [klv, klv1, klv2, klv3, klv4];
     }
 
     var pvi = 55000;
