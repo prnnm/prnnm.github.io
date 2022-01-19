@@ -34,9 +34,9 @@
         var b5 = b + b1 + b2 + b3 + b4;
         var c5 = c + c1 + c2 + c3 + c4;
 
-        var td1 = document.getElementById("td1").innerHTML = a5;
-        var td2 = document.getElementById("td2").innerHTML = b5;
-        var td3 = document.getElementById("td3").innerHTML = c5;
+        var td1 = document.getElementById("td1").value = a5;
+        var td2 = document.getElementById("td2").value = b5;
+        var td3 = document.getElementById("td3").value = c5;
     }
 
     var pvi = 55000;
