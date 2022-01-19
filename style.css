@@ -65,7 +65,7 @@ body {
     justify-content: center;
     min-width: 230px;
     max-width: inherit;
-    width: 230px;
+    width: 300px;
 }
 
 input[type=number]::-webkit-inner-spin-button,
@@ -85,4 +85,8 @@ input[type=number]::-webkit-outer-spin-button {
 #a {
     color: #000;
 
+}
+
+.answer {
+    width: 80px;
 }
