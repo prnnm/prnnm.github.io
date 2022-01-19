@@ -9,6 +9,8 @@
         var klv2 = document.getElementById("inp3").value;
         var klv3 = document.getElementById("inp4").value;
         var klv4 = document.getElementById("inp5").value;
+
+        var tv = document.getElementById("tv").innerHTML;
         
         var a = pvi * klv;
         var b = vs * klv;
@@ -37,6 +39,10 @@
         var td1 = document.getElementById("td1").value = a5;
         var td2 = document.getElementById("td2").value = b5;
         var td3 = document.getElementById("td3").value = c5;
+        
+        if (klv > 0) {
+            var tov = document.getElementById("tov").value = tv;
+        }
     }
 
     var pvi = 55000;
